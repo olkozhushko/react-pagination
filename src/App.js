@@ -91,9 +91,9 @@ class App extends Component {
     if (totalCountries === 0) return null;
 
     return (
-      <div className="container-fluid px-4 py-3 text-center">
+      <div className="container-fluid px-5 py-3 text-center">
         <header className="container">
-          <h1>All Coutries App</h1>
+          <h1 className="text-primary">React Pagination App</h1>
         </header>
         <div className="app__content row d-flex flex-column px-2 py-2 justify-content-around">
           <div className="d-flex justify-content-between">
